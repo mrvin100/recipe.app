@@ -7,7 +7,7 @@ export default function Navbar() {
     useContext(GlobalContext);
   console.log(searchParam);
   return (
-    <nav className="flex justify-between items-center py-8 container mx-auto flex-col lg:flex gap-5 lg:gap-0">
+    <nav className="flex justify-between items-center py-8 container mx-auto lg:flex gap-5 lg:gap-0">
       <h2 className="text-2xl font-semibold">
         {" "}
         <NavLink
